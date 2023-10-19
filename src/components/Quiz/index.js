@@ -74,16 +74,16 @@ const QuestionPage = () => {
         <span className='mr-4'>
           {currentQuestion + 1}/{sampleQuiz.length}
         </span>
-        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' onClick={handleBack}>
           Back
         </button>
-        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4'>
+        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4' onClick={handleNext}>
           Next
         </button>
-        <button className='bg-purple-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4'>
+        <button className='bg-purple-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4' onClick={handleReview}>
           Review
         </button>
-        <button className='bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4'>
+        <button className='bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4' onClick={handleSubmit}>
           Submit
         </button>
       </div>
